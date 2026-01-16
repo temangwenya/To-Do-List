@@ -1,7 +1,5 @@
-// ToDoList1.java   INITIAL VERSION
-// Contains basic structure for a Java To-Do List application
-
 import java.util.Scanner;
+
 public class ToDoList1 {
     public static void main(String[] args){
         //Objects
