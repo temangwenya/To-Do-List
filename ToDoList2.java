@@ -21,7 +21,6 @@ public class ToDoList2 {
             System.out.println("2. Check off Tasks");
             int whatchaDoin = scanner.nextInt();
             System.out.println("_________________________");
-
         
         // Whatcha Doin
             switch (whatchaDoin) {
@@ -36,31 +35,28 @@ public class ToDoList2 {
                     //restart programme
             }
         }
-            
+
+
     static void addTask() {
         
             System.out.println("       ADD TASK:");
             //System.out.println("_________________________");
             System.out.println("       =========");
+                scanner.nextLine();
         
-        /*// Date
+        // Date
             System.out.print(" DAY: ");
             String day_ = scanner.nextLine();
-                scanner.nextLine();
             System.out.print("DATE: ");
             String date = scanner.nextLine();
-            System.out.println("-----");*/
+            System.out.println("-----");
         
         // Tasks
             String yesORno = " ";
-            //System.out.print("Task: ");
-            //String task = scanner.nextLine();
-           // System.out.println(" ");
             
             do {
                 System.out.print("Task: ");
                 String task = scanner.nextLine();
-                    scanner.nextLine();
                 System.out.println(" ");
                 
                 System.out.println("Wanna add another task? (yes/no)");
@@ -70,21 +66,8 @@ public class ToDoList2 {
                 
                 
             System.out.println("_________________________");
-            //System.out.println("Tasks for " + date + ":");  
+            //System.out.println("Tasks for " + date + ":"); 
             
-            
-            /*while (addTask == true) {
-                // add task
-                    scanner.nextLine();
-                System.out.print("Task: ");
-                String task = scanner.nextLine();
-                    //scanner.nextLine();
-                System.out.println("Wanna add another task? (true/false)");
-                String addTask = scanner.nextLine();
-            } else if (addTask == false) {
-            System.out.println("_________________________");
-            System.out.println("Tasks for " + date + ":");            
-            }*/
     }    
 
     static void checkOffTasks() {
@@ -94,7 +77,6 @@ public class ToDoList2 {
         // Date
             System.out.println(" DAY: ");
             System.out.println("DATE: ");
-
         // CHECK OFF TASKS
     }
 
