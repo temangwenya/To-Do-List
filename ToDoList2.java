@@ -66,7 +66,7 @@ public class ToDoList2 {
                 
                 
             System.out.println("_________________________");
-            //System.out.println("Tasks for " + date + ":"); 
+            System.out.println("Tasks for " + day_ + ", " + date + ":"); 
             
     }    
 
