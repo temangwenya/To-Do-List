@@ -20,8 +20,7 @@ java ToDoList1
 
 # 👩🏾‍💻 Developer
 **Student Developer**  
-**Academic Project**  
 **Course:** BSc IT - Software Engineering  
-**Module:** Procedural Programming
+**Module:** Just for fun 
 
 ---
