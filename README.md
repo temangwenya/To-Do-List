@@ -8,7 +8,8 @@ A console-based to-do list app for learning Java. Continuously improving with ne
 - Interactive menu system
 
 ## 📁 Project Structure
-- `ToDoList1.java` - Current console version
+- `ToDoList1.java` - Old console version
+- `ToDoList2.java` - Current console version (better code structure)
 - Future: GUI, database, web versions
 
 ## ▶️ How to Run
