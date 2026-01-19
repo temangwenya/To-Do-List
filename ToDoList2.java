@@ -62,7 +62,10 @@ public class ToDoList2 {
                 System.out.println("Wanna add another task? (yes/no)");
                 yesORno = scanner.nextLine();
                 System.out.println(" ");
-            } while (!yesORno.equals("no"));
+                if (yesORno == "no"){
+                    break;
+                }
+            } while (yesORno.equals("yes"));
                 
                 
             System.out.println("_________________________");
