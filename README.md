@@ -28,8 +28,8 @@ This version focuses on improving code structure and readability to make the pro
 
 ## 📁 Project Structure
 
-- `ToDoList1.java` — Refactored console version with improved comments and readability
-- `ToDoList2.java` — Planned future improved version with better structure (if applicable)
+- `ToDoList1.java` — Basic code with improved comments and readability
+- `ToDoList2.java` — Refactored console version. Planned future improved version with better structure (if applicable)
 - Future plans: GUI version, database storage, and web-based application
 
 ---
