@@ -19,7 +19,7 @@ public class ToDoList2 {
             int whatchaDoin;
             do {
                 System.out.println("_________________________");
-                System.out.println("Hi. Whatcha doinnn? (1/2)");
+                System.out.println("Hi. Whatcha doinnn? (1, 2, or 3)");
                 System.out.println("1. Add Task");
                 System.out.println("2. Check Off Tasks");
                 System.out.println("3. Exit"); 
@@ -40,7 +40,7 @@ public class ToDoList2 {
                         System.out.println("Exiting program. Goodbye!");
                         break;
                     default:
-                        System.out.println("Please input 1 or 2.");
+                        System.out.println("Please input 1, 2, or 3.");
                         //restart programme
                 }
                 
