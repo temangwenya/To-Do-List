@@ -15,7 +15,6 @@ public class ToDoList2 {
         // Greeting
             System.out.println("      TO-DO LIST:");
             System.out.println("      ===========");
-<<<<<<< Updated upstream
 
             int whatchaDoin;
             do {
@@ -27,20 +26,10 @@ public class ToDoList2 {
                 whatchaDoin = scanner.nextInt();
                 System.out.println("_________________________");
                 
-=======
-            System.out.println("_________________________");
-            System.out.println("Hi. Whatcha doinnn? (1/2)");
-            System.out.println("1. Add Task");
-            System.out.println("2. Check off Tasks");
-            int whatchaDoin = scanner.nextInt();
-            System.out.println("_________________________");
-        
->>>>>>> Stashed changes
             // Whatcha Doin
                 switch (whatchaDoin) {
                     case 1:
                         addTask();
-<<<<<<< Updated upstream
                         displayTasks(); // Final Display
                         break;
                     case 2:
@@ -57,23 +46,6 @@ public class ToDoList2 {
                 
                 
             } while (whatchaDoin != 3); // Infinite loop to keep the program running until manually exited
-=======
-                        break;
-                    case 2:
-                        checkOffTasks();
-                        break;
-                    default:
-                    System.out.println("Please input 1 or 2.");
-                        //restart programme
-            }
-        
-        // Final Display
-            System.out.println("_________________________");
-            System.out.println("Tasks for the day:"); // I want it to be: for <dqy>, <date>. To fetch it from addTask method, I probably need to make it global or return it, or pointers or something/
-            for (String t : tasks) {
-                System.out.println("- " + t);
-            }
->>>>>>> Stashed changes
         }
 
 
@@ -114,12 +86,8 @@ public class ToDoList2 {
     static void checkOffTasks() {
             System.out.println("    CHECK OFF TASKS:");
             System.out.println("    ================");
-<<<<<<< Updated upstream
             scanner.nextLine();
         
-=======
-
->>>>>>> Stashed changes
         // Date
             System.out.print(" DAY: ");
                 String day_ = scanner.nextLine();
