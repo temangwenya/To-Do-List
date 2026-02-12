@@ -40,3 +40,13 @@ Make sure Java (JDK 8 or above) is installed.
 
 ```bash
 java --version
+```
+---
+
+# 👩🏾‍💻 Developer
+**Student Developer**  
+**Academic Project**  
+**Course:** BSc IT - Software Engineering  
+**Module:** Procedural Programming
+
+---
