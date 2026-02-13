@@ -14,13 +14,12 @@ public class ToDoList2 {
         
         // Greeting
             System.out.println("      TO-DO LIST:");
-            System.out.println("      ===========");
+            System.out.println("      ===========\n");
 
             int whatchaDoin;
             do {
-                System.out.println("_________________________");
                 System.out.println("Hi. Whatcha doinnn? (1, 2, or 3)");
-                System.out.println("1. Add Task");
+                System.out.println("1. Add Tasks");
                 System.out.println("2. Check Off Tasks");
                 System.out.println("3. Exit"); 
                 whatchaDoin = scanner.nextInt();
@@ -46,6 +45,8 @@ public class ToDoList2 {
                 
                 
             } while (whatchaDoin != 3); // Infinite loop to keep the program running until manually exited
+            //TODO: add input validayion
+            //TODO: add functionality to save tasks to a file and load them when the program starts
         }
 
 
