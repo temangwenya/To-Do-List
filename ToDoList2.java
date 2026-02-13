@@ -36,7 +36,7 @@ public class ToDoList2 {
             }
         }
 
-
+// Add Tasks
     static void addTask() {
         
             System.out.println("       ADD TASK:");
@@ -70,6 +70,7 @@ public class ToDoList2 {
             
     }    
 
+    //Check off Tasks
     static void checkOffTasks() {
             System.out.println("    CHECK OFF TASKS:");
             System.out.println("    ================");
